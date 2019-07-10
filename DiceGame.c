@@ -15,7 +15,7 @@ int main(void){
   printf("Hello, %s!\n", name );
 
   printf("Rolling the dice...\n");
-  for( i = 0 ; i < 2 ; i++ ){
+  for( i = 0 ; i < 3 ; i++ ){
     num = rand() % 6 + 1;
     printf("Die %d: %d\n", i + 1 , num );
     total += num;
