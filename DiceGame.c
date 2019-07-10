@@ -7,7 +7,12 @@ int main(void){
   srand((unsigned int)time(NULL));
 
   int i, num, total;
+  char name[20];
   total = 0;
+
+  printf("What is your name?\n");
+  scanf("%s", name );
+  printf("Hello, %s!\n", name );
 
   printf("Rolling the dice...\n");
   for( i = 0 ; i < 2 ; i++ ){
